@@ -1,0 +1,14 @@
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\bin\Debug\net8.0\ordenacaoEmC#.exe
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\bin\Debug\net8.0\ordenacaoEmC#.deps.json
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\bin\Debug\net8.0\ordenacaoEmC#.runtimeconfig.json
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\bin\Debug\net8.0\ordenacaoEmC#.dll
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\bin\Debug\net8.0\ordenacaoEmC#.pdb
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.AssemblyInfoInputs.cache
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.AssemblyInfo.cs
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.csproj.CoreCompileInputs.cache
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.dll
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\refint\ordenacaoEmC#.dll
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.pdb
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ordenacaoEmC#.genruntimeconfig.cache
+C:\Users\laboratorio\Desktop\ordenacaoEmC#\obj\Debug\net8.0\ref\ordenacaoEmC#.dll
