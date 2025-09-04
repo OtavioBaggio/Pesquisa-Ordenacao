@@ -1,0 +1,81 @@
+	----- REVISÃO -------
+
+1) O que é ordenação e por que é importante ordenar estruturas de dados?
+R:
+  Organizar uma estrutura de dados(crescente ou decrescente) usando uma ou mais chaves de controles (variável). A ordenação é importante pois suas estruturação tem a busca/pesquisa mais eficiente, resultante de seus algoritmos baseados em árvores
+  
+2) Dos vários algoritmos de ordenação, há categorias que os classificam, como:
+   - estabilidade
+   - complexidade
+
+   - Explique o que é estabilidade e complexidade. Se    necessário, dar exemplos. Quais os métodos estudados que são estáveis e quais que são instáveis
+R:
+  #Estabilidade: O processo de ordenação sempre garante a ordenação temporária da estrutura
+  Ex:
+  o processo de ordenação sempre garante a ordenação temporária da estrutura
+            0,1,2,3,4,5
+
+            [4,8,1,3,4,2]
+            [4,1,3,4,2,8]
+            [1,3,4,2,4,8]
+            [1,3,2,4,4,8]
+            [1,2,3,4,4,8]
+            [1,2,3,4,4,8]
+  
+Métodos Estáveis:
+- Bubble Sort(bolha)
+- Insertion Sort(Inserção)
+- Shake Sort(Cocktail)
+- Merge Sort
+- Bucket Sort
+- Radix Sort 
+- Whey Sort - Shake(agitação)
+
+  #Instabilidade: Pode alterar a ordem da estrutura, ou seja, não garante a ordem dos elementos.
+	     0,1,2,3,4,5
+		
+	    [4,8,1,3,4,2]
+            [1,8,4,3,4,2]
+            [1,2,4,3,4,8]
+            [1,2,3,4,4,8]
+            [1,2,3,4,4,8]
+            [1,2,3,4,4,8]
+	
+	NÃO SÃO adequados para listas feitas em C ou C++ com alocação dinâmica de memória, como trabalhado na disciplina Estruturas de Dados
+
+Métodos Instáveis:
+- Selection Sort(Seleção)
+- Comb Sort(pente)
+- Shell Sort
+- Heap Sort
+- Quick Sort
+ 
+  Complexidade: É a quantidade de esforço computacional(tarefas, rotinas, método) envolvidos no algoritmo. A complexidade dos algoritmos é medida pela quantidade de comparações e trocas e são categorizados em:
+Complexidade fatorial       - O(n!)         - menos eficiente
+Complexidade polinomial     - O(n^k) 
+Complexidade Exponencial    - O(n^2)
+Complexidade Linear         - O(n)
+Complexidade Logaritmica    - O(log n)      - mais eficaz
+
+3)  - Dos métodos estudados, qual o melhor método de ordenação?
+R:
+  Depende do contexto, se o tamanho dos dados, se os dados cabem na memória, se eles já estão parcialmente ordenados, se a estabilidade importa, entre outros fatores.
+
+Em contextos educacionais ou teóricos:
+- Use Bubble, Insertion e Selection Sort para ensinar conceitos básicos (apesar de ineficientes).
+- Use Merge Sort e Quick Sort para ensinar o paradigma "dividir e conquistar".
+
+Na prática (em sistemas reais):
+- Quick Sort é geralmente o mais rápido na prática para dados em memória, por seu bom desempenho em cache (apesar do pior caso ser O(n²)).
+- Merge Sort é ótimo quando: 
+	Dados são muito grandes (ex: ordenação em disco/externa).
+	Você precisa de estabilidade (ex: ordenação de registros com múltiplas chaves).
+- Heap Sort é usado quando há necessidade de tempo garantido O(n log n), mas a instabilidade não é um problema.
+
+
+ Casos especiais:
+
+Counting Sort, Radix Sort e Bucket Sort são extremamente rápidos (O(n)) para dados com estrutura bem conhecida:
+- Inteiros dentro de um intervalo pequeno.
+- Strings de tamanho fixo.
+- Dados que cabem em buckets bem distribuídos.
