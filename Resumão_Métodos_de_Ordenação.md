@@ -227,6 +227,36 @@ No final:
 
 <img width="691" height="195" alt="image" src="https://github.com/user-attachments/assets/4d64fece-f6a8-4c33-ad7a-dce88e7a55c4" />
 
+## HEAP SORT
+Como funciona: O Heapsort é um algoritmo de ordenação baseado na estrutura de dados heap, que é uma árvore binária completa onde cada nó obedece a uma das duas propriedades: max-heap ou min-heap.
+
+    Max-Heap: A raiz de cada subárvore é sempre o maior elemento (o maior valor está no topo da árvore).
+
+    Min-Heap: A raiz de cada subárvore é sempre o menor elemento.
+No caso do Heapsort, utilizamos max-heap para ordenar os elementos em ordem crescente.
+
+Passos:
+Construção do Max-Heap: O primeiro passo do Heapsort é reorganizar a lista de entrada para garantir que ela se torne um max-heap. Isso é feito usando a operação heapify.
+
+Ordenação: A partir do max-heap construído, o maior elemento (que está na raiz) é movido para o final da lista. Após essa troca, o tamanho do heap é reduzido em 1, e o heap é reorganizado (heapify) para manter a propriedade de max-heap. Este processo é repetido até que todos os elementos estejam ordenados.
+
+Complexidade: Melhor/Pior caso: O(n log n), O tempo é 𝑂 ( 𝑛 log ⁡ 𝑛 ) porque a construção do heap leva 𝑂 ( 𝑛 ), mas a operação de extração e reinserção de elementos (heapify) ocorre 𝑛 n vezes e cada operação de heapify tem um custo de 𝑂 ( log ⁡ 𝑛 ).
+
+Estabilidade: ❌ Instável
+
+Memória: é considerado in-place, ou seja, ele utiliza apenas a memória necessária para armazenar os dados de entrada e uma quantidade constante de memória adicional para variáveis temporárias, como índices e variáveis auxiliares. Isso significa que ele não utiliza memória externa.
+
+<img width="963" height="681" alt="{9E88EAAB-100B-4A18-92B9-B6EC9D97980E}" src="https://github.com/user-attachments/assets/d3773223-7f64-4a4b-b226-f5a289b956d7" />
+<img width="947" height="617" alt="{A1EF738A-336D-4798-AE22-53F23F032386}" src="https://github.com/user-attachments/assets/69f7274b-dfd5-4ec3-bbb7-4bb72799d090" />
+<img width="860" height="588" alt="{F560A1E9-A378-44F2-AC7A-A773A96CF6CC}" src="https://github.com/user-attachments/assets/7d6c2db7-6639-4e20-b10f-4f7877c08298" />
+<img width="874" height="636" alt="{0AB3DD7A-615B-4ED4-A51B-1D6AE61D5DC8}" src="https://github.com/user-attachments/assets/0ea356cf-f775-4045-a9d6-8ba5cd869205" />
+<img width="912" height="621" alt="{F89C26C2-5CB3-46AC-85C0-157D8027B88B}" src="https://github.com/user-attachments/assets/f4ac3f1b-1cda-474c-bdfd-70f3d9fb5ad2" />
+
+
+
+
+
+
 
 
 
